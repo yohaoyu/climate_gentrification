@@ -33,7 +33,7 @@ sf_bg_geo = sf_bg[['GEOID','geometry','TotalPopu','area']]
 During handling of the above exception, another exception occurred:
 
 [0;31mDriverError[0m                               Traceback (most recent call last)
-[0;32m/var/folders/d4/7ds8vgb91y50k8cnmmtxccjr0000gn/T/ipykernel_28758/2258766998.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/var/folders/d4/7ds8vgb91y50k8cnmmtxccjr0000gn/T/ipykernel_31732/2258766998.py[0m in [0;36m<module>[0;34m[0m
 [1;32m      1[0m [0;31m#census block groups data[0m[0;34m[0m[0;34m[0m[0m
 [0;32m----> 2[0;31m [0msf_bg[0m [0;34m=[0m [0mgpd[0m[0;34m.[0m[0mread_file[0m[0;34m([0m[0;34m'data/sf_bg/sf_bg.geojson'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 [0m[1;32m      3[0m [0msf_bg_geo[0m [0;34m=[0m [0msf_bg[0m[0;34m[[0m[0;34m[[0m[0;34m'GEOID'[0m[0;34m,[0m[0;34m'geometry'[0m[0;34m,[0m[0;34m'TotalPopu'[0m[0;34m,[0m[0;34m'area'[0m[0;34m][0m[0;34m][0m[0;34m[0m[0;34m[0m[0m

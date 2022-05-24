@@ -33,7 +33,7 @@ ca_bg = ca_bg.to_crs('EPSG:3857')
 During handling of the above exception, another exception occurred:
 
 [0;31mDriverError[0m                               Traceback (most recent call last)
-[0;32m/var/folders/d4/7ds8vgb91y50k8cnmmtxccjr0000gn/T/ipykernel_28771/3173223762.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/var/folders/d4/7ds8vgb91y50k8cnmmtxccjr0000gn/T/ipykernel_31742/3173223762.py[0m in [0;36m<module>[0;34m[0m
 [1;32m      1[0m [0;31m#census block group[0m[0;34m[0m[0;34m[0m[0m
 [0;32m----> 2[0;31m [0mca_bg[0m [0;34m=[0m [0mgpd[0m[0;34m.[0m[0mread_file[0m[0;34m([0m[0;34m'data/tl_2015_06_bg/tl_2015_06_bg.shp'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 [0m[1;32m      3[0m [0mca_bg[0m [0;34m=[0m [0mca_bg[0m[0;34m.[0m[0mto_crs[0m[0;34m([0m[0;34m'EPSG:3857'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
